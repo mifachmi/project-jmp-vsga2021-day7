@@ -4,4 +4,20 @@
     <string name="aplikasi_kalkulator">Aplikasi Kalkulator</string>
     <string name="aplikasi_input_nama">Aplikasi Input Nama</string>
     <string name="aplikasi_list_view">Aplikasi List View</string>
+    <string name="masukkan_dua_angka">Masukkan Dua Angka</string>
+    <string name="angka_pertama">Angka Pertama</string>
+    <string name="angka_kedua">Angka Kedua</string>
+    <string name="pilih_operator">Pilih Operator</string>
+    <string name="hasil">Hasil</string>
+    <string name="nol">0</string>
+    <string name="tambah">+</string>
+    <string name="kurang">-</string>
+    <string name="kali">x</string>
+    <string name="bagi">/</string>
+    <string name="bersihkan">Bersihkan</string>
+    <string name="masukkan_nama_anda">Masukkan Nama Anda</string>
+    <string name="tampilkan">Tampilkan</string>
+    <string name="judulListView">Daftar Mahasiswa D4 IT B 2019</string>
+    <string name="tvMhs">Nama Mahasiswa</string>
+    <string name="tvNrp">NRP Mahasiswa</string>
 </resources>
