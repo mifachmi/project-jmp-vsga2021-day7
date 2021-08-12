@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">vsga-day7</string>
+    <string name="app_name">Project VSGA Day 7</string>
+    <string name="created_by_fachmi_dimas">Created by Fachmi Dimas</string>
+    <string name="aplikasi_kalkulator">Aplikasi Kalkulator</string>
+    <string name="aplikasi_input_nama">Aplikasi Input Nama</string>
+    <string name="aplikasi_list_view">Aplikasi List View</string>
 </resources>
