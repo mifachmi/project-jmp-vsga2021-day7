@@ -7,12 +7,11 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
-
 import androidx.annotation.NonNull;
-
 import java.util.ArrayList;
 
 public class MahasiswaAdapter extends ArrayAdapter<Mahasiswa> {
+
     public MahasiswaAdapter(@NonNull Context context, ArrayList<Mahasiswa> resource) {
         super(context, 0, resource);
     }

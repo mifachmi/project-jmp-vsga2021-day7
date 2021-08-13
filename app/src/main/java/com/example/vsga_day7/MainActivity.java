@@ -1,21 +1,16 @@
 package com.example.vsga_day7;
 
-import androidx.annotation.RequiresApi;
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
-import android.graphics.drawable.ColorDrawable;
 import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+import androidx.annotation.RequiresApi;
+import androidx.appcompat.app.AppCompatActivity;
 
-    private Button btnAppKalkulator;
-    private Button btnAppInputNama;
-    private Button btnListView;
+public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     @RequiresApi(api = Build.VERSION_CODES.M)
     @Override
@@ -25,13 +20,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         getWindow().getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR);
 
-        btnAppKalkulator = findViewById(R.id.btnKalkuApp);
+        Button btnAppKalkulator = findViewById(R.id.btnKalkuApp);
         btnAppKalkulator.setOnClickListener(this);
 
-        btnAppInputNama = findViewById(R.id.btnInputApp);
+        Button btnAppInputNama = findViewById(R.id.btnInputApp);
         btnAppInputNama.setOnClickListener(this);
 
-        btnListView = findViewById(R.id.btnListApp);
+        Button btnListView = findViewById(R.id.btnListApp);
         btnListView.setOnClickListener(this);
     }
 

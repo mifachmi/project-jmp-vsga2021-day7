@@ -58,7 +58,30 @@ public class DataMahasiswa {
     };
 
     public static int[] fotoMhs = {
-
+        R.drawable.flo,
+        R.drawable.irsyad,
+        R.drawable.yusuf,
+        R.drawable.faza,
+        R.drawable.mahira,
+        R.drawable.nurhidayah,
+        R.drawable.ridlo,
+        R.drawable.fatih,
+        R.drawable.fachmi,
+        R.drawable.galih,
+        R.drawable.rheza,
+        R.drawable.caesar,
+        R.drawable.wahyu,
+        R.drawable.rafi,
+        R.drawable.himma,
+        R.drawable.rifki,
+        R.drawable.aby,
+        R.drawable.aisyah,
+        R.drawable.bagus,
+        R.drawable.iqbal,
+        R.drawable.ardy,
+        R.drawable.evita,
+        R.drawable.bima,
+        R.drawable.erlangga
     };
 
     static ArrayList<Mahasiswa> getListData() {
@@ -67,7 +90,7 @@ public class DataMahasiswa {
             Mahasiswa mhs = new Mahasiswa();
             mhs.setName(namaMhs[position]);
             mhs.setNrp(nrpMhs[position]);
-//            hero.setPhoto(heroesImages[position]);
+            mhs.setPhoto(fotoMhs[position]);
             list.add(mhs);
         }
         return list;

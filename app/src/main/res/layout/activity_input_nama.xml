@@ -20,10 +20,11 @@
         android:layout_height="wrap_content"
         app:layout_constraintTop_toBottomOf="@+id/tvInputNama"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="16dp" />
+        tools:layout_editor_absoluteX="16dp"
+        android:inputType="text" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnTampilkan"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
@@ -38,7 +39,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:text=""
-        app:layout_constraintTop_toBottomOf="@+id/button"
+        app:layout_constraintTop_toBottomOf="@+id/btnTampilkan"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="16dp" />
 

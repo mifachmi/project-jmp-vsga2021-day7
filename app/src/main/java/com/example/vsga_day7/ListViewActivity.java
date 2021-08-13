@@ -20,17 +20,6 @@ public class ListViewActivity extends AppCompatActivity {
 
         Objects.requireNonNull(getSupportActionBar()).setTitle("Aplikasi List View");
 
-//        ListView lvMahasiswa = findViewById(R.id.lvListApp);
-//        ArrayAdapter<String> adapterNama = new ArrayAdapter<String>(ListViewActivity.this,
-//                R.layout.item_row_mahasiswa, R.id.tv_item_name, DataMahasiswa.namaMhs);
-//        lvMahasiswa.setAdapter(adapterNama);
-//
-//        ArrayAdapter<String> adapterNrp = new ArrayAdapter<String>(ListViewActivity.this,
-//                R.layout.item_row_mahasiswa, R.id.tv_item_nrp, DataMahasiswa.nrpMhs);
-//        lvMahasiswa.setAdapter(adapterNrp);
-//
-
-
         // Construct the data source
         ArrayList<Mahasiswa> arrayOfUsers = new ArrayList<>(DataMahasiswa.getListData());
 
